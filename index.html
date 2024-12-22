@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Love Jar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>💌 Digital Love Jar For You Bachaa 💌 </h2>
+
+  <div class="message-container">
+    <p class="message">
+    <h3>
+      My Love 🧡,<br><br>
+      In my opinion, this is the best time to reveal the very first gift beautifully curated only for you as
+      this is the first day of diving into the 27th year of life. So I would love it if this would make the first day (as I state) 
+      memorable. This is the gift which is not wrapped in shiny paper or tied with ribbon, but I promise, it holds something much
+      more precious: my thoughts, feelings, and endless love for you!!! <br><br>
+
+      Every note inside this jar is a little piece of my heart—a memory we’ve created, a smile you’ve given me,
+      or just a moment when I was reminded how lucky I am to have you in my life. Whenever you’re feeling down,
+      overwhelmed, or just in need of a reminder, I want you to come here and pick a note.
+      Let it remind you of how incredible you are and how much you mean to me.<br><br>
+      
+      I made this because words sometimes fail to express how much I adore you.
+      So, here’s my attempt to capture that in tiny love notes—one for every day, every mood, and every special moment. <br><br>
+
+      Forever Yours,<br>
+      Shankyy
+    </h3>
+    </p>
+  </div>
+  
+<!-- Note Section -->
+<div class="note-section">
+    <div class="note" id="note">Click the button to see today's note!</div>
+    <button id="getNoteBtn">Get Today's Note</button>
+    <button onclick="toggleAddNote()">Add a New Note</button>
+    <button id="getMemoryBtn">Recall a Memory</button>
+  </div>
+    
+  <!-- Add Note Container -->
+  <div class="add-note-container" id="addNoteContainer">
+    <textarea id="newNote" placeholder="Write your love note here..."></textarea>
+    <button id="saveNoteBtn">Save Note</button>
+    <button onclick="toggleAddNote()">Cancel</button>
+  </div>
+    
+  <script src="script.js"></script>
+</body>
+</html>

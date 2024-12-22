@@ -1,0 +1,160 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: lightcyan; /* Softer pink background */
+    color: #333;
+    margin: 0;
+    animation: fadeIn 2s ease-out; /* Fade-in animation for the whole page */
+  }
+  
+  /* Header styles */
+  h2 {
+    color: #d63384; /* Deep pink */
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    animation: slideInFromTop 1s ease-out;
+  }
+  
+  h3 {
+    color: rebeccapurple;
+    margin-bottom: 20px;
+    animation: fadeInText 3s ease-out;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #d63384; /* Deep pink */
+    font-size: 14px;
+    transition: background-color 0.3s, transform 0.2s;
+    animation: bounceIn 1s ease-out; /* Button animation */
+  }
+  
+  button:hover {
+    background-color: #b5236f; /* Slightly darker pink */
+    transform: translateY(-2px);
+  }
+  
+  /* Special Message Section */
+  .message-container {
+    margin: 20px auto;
+    padding: 20px 30px;
+    border: 2px solid #d63384; /* Deep pink border */
+    background-color: #ffe4e9; /* Soft pink background */
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    animation: fadeIn 3s ease-out;
+  }
+  
+  .message-container h2 {
+    color: #d63384;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .message-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  /* Note Section */
+  .note-section {
+    margin: 10px auto;
+    padding: 20px 0;
+    max-width: 600px;
+  }
+  
+  /* Animations for notes */
+  .note {
+    margin: 20px auto;
+    padding: 15px 20px;
+    border: 2px dashed #d63384;
+    max-width: 400px;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    border-radius: 5px;
+    animation: fadeInUp 1.5s ease-out;
+  }
+  
+  /* Add Note Container */
+  .add-note-container {
+    margin-top: 20px;
+    display: none;
+    animation: fadeInUp 1s ease-out;
+  }
+  
+  textarea {
+    width: 90%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Keyframe Animations */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInText {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
