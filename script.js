@@ -2,15 +2,18 @@
 let notes = JSON.parse(localStorage.getItem("loveNotes")) || [
     "Never ever ask me if you are enough for me? Darling, You're all I need.",
     "You’re the reason I smile when I check my phone. 💕",
-    "You're my sunshine on a cloudy day!",
-    "I love how you always make me smile.",
-    "Every moment with you is magical.",
-    "You are the best thing that ever happened to me.",
-    "I can't wait for our next adventure together."
+    "I want you. All of you. Your flaws. Your mistakes. Your imperfections. I want you, and only you.",
+    "And when you smile, the whole world stops and stares or a while, cause you're amazing, just the way you are.",
+    "Love is too weak a word for what I feel. I luuurve you, you know, I loave you, I luff you, two F's.",
+    "No other woman on this planet can turn me on the way you can.",
+    "Picture my head in between your legs, because that’s where it’s going to be later.",
+    "I can't wait for our next adventure together.",
+    "Baby, I'm the best fabric around. I'm husband material. ",
+    "Forever, I want to continue experiencing love with you, to laugh, to explore and grow together."
   ];
 // Retrieve memories from localStorage or initialize with default memories
 let memories = JSON.parse(localStorage.getItem("loveMemory")) || [
-    "Apologies for the inconvenience caused, your love Shankyy is working on it !!!"
+    "Apologies for the inconvenience caused, Shankyy is working on it !!!"
   ];
 
 // Display a random note
